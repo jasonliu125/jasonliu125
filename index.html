@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Undergraduate Planning at Price (UP)
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        @import url{"https://use.typekit.net/eng5xor.css"};
+        
+        #header1 {
+            background-color: #f7d20f;
+            text-align: center;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            margin: 0px;
+            /* Don't add heights in general */
+            /*height: 100px;*/
+            }
+
+        html, body {
+                /* Shorthand for make ALL left, right, top, bottom margin 0*/
+                margin: 0 auto;
+                padding: 0 auto;
+                background-color: #f7d20f}
+        
+        a {text-decoration:none;color:black}
+        
+        #header {
+            background-color: #f7d20f; text-align: center; padding-top: 40px; padding-bottom: 40px; margin-left: auto;
+            margin-right: auto; width: 1056px
+            /* Shorthand for margin top&bottom is 0, left and right are auto */
+            margin: 0 auto; 
+        }
+        #header img {width: 20%;}
+        #header h1 {
+            font-family: itc-avant-garde-gothic-pro, sans-serif;
+            font-weight: 700px;
+            font-size:40px;
+            margin-top: 0 auto;
+            margin-bottom: 0 auto;
+            margin-left: 0 auto;
+            }
+          
+        #about {
+            background-color: #f7d20f;
+            width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+            }
+        #about #column1 {
+            background-color:#f7d20f;
+            width: 50%;
+            float: left;
+            text-align: right;
+            padding-top: 20px;
+            }
+        #about #column2 {
+            background-color:#f7d20f;
+            width: 50%;
+            /* Don't add a fixed height because content can change */
+            /*height: 399px;*/
+            float: left;
+            /* There is an unforunate side effect to float.. It will cause whatever comes after the float to try to wrap around the floated element*/
+            }
+        
+        #about h2 {font-family: itc-avant-garde-gothic-pro, sans-serif;
+            font-weight: 500px;
+            font-size:24px;
+            margin-top: 0 auto;
+            margin-bottom: 0 auto;
+            margin-left: 0 auto;}
+
+        .clearfloat {
+            clear: both;
+            }
+        .color-text {
+            color:turquoise;
+            }
+        #column2 p {
+            margin-top: 0;
+            margin-bottom: 0;
+            }
+        #menu {
+            background-color:#f7d20f;
+            width: 70%;
+            margin-left: auto;
+            margin-right: auto;
+            /* Shorthand for margin top&bottom is 0, left and right are auto */
+            margin: 0 auto;
+            padding-bottom: 80px;
+            }
+        #menu .column {
+            background-color: #f7d20f;
+            width: 34%;
+            box-sizing: border-box;
+            float: left;
+            text-align: center;
+            margin-left:-.5%;
+            margin-right:-.5%;
+            margin-top:-.5%;
+            margin-bottom:-.5%;
+            /* shorthand for border */
+            ;
+            }
+        #menu .column img {
+            /* Images don't care about the width of divs they are in so need to manually fix them */
+            /*width: 400px;*/
+            width: 100%;}
+        #menu .column h1 {font-family: itc-avant-garde-gothic-pro, sans-serif;
+            font-weight: 700px;
+            font-size:40px;
+            margin-top: 0 auto;
+            margin-bottom: 0 auto;
+            margin-left: 0 auto;} 
+        
+        /* paste here */
+        
+        #buttons {
+            width: 100%;
+        height: 150px;
+        display: flex;
+        align-items: center;
+        justify-content: center;}
+
+        button {
+            border: none;
+            background-color: inherit;
+            padding: 30px 30px;
+            font-size: 16px;
+            cursor: pointer;
+            display: inline-block;
+            align-content: center;
+            font-family: "itc avant garde gothic", sans-serif;
+            font-weight: bolder;
+            font-size:40px;
+            }
+        
+        button:hover {color: #b92126;}
+
+
+        
+
+        @media (max-width: 991px) {
+        #menu {width: 80%;}
+        #menu .column {width: 34%;}
+
+        #about {width: 80%}
+        #photo .column {width: 30%;}
+
+}
+        @media (max-width: 767px) {
+        
+            #menu {width: 90%;}
+        #menu .column {width: 34%;}
+            #about {width: 80%}
+}
+        @media (max-width: 575px) { #menu {width: 80%;}
+        #menu .column {width: 100%;}
+    }           
+    </style>
+
+</head>
+<body>
+
+    <div id="header">
+        <img src="uplogo.png"/>
+        </div>
+    
+    
+    <div id="menu">
+        <div class="column">
+            <h1> <a href="UPatPrice-whatsUP.html" >What's UP</a></h1>
+        </div>
+        <div class="column">
+            <h1> <a href="UPatPrice-meetUP.html" >Meet UP</a></h1>
+        </div>
+        <div class="column">
+            <h1> <a href="https://docs.google.com/forms/d/e/1FAIpQLSe4PJ8jwS8Gpz5dbTtIwpCEBZWgNxduAGoqnEEagbKI_E5E4g/viewform?fbclid=IwAR1ZHuk252QxboEK0S7ObogqDzkHMyohaphpWGyrEpy7yuvl9eicwS5_Pgg" target="_blank">Join UP</a></h1>
+        </div>
+    </div>
+    <div id="about">
+        <h2>We're a community of USC undergraduate urban planning and public policy students who are deeply passionate about the built environment. Check out our events, members, and join us! Follow UP on IG <a href="https://www.instagram.com/upatprice/" target="_blank">@<u>UPatPrice</u></a>.   
+    
+    </body>
+</html>    

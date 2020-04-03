@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+    <!DOCTYPE html>
+<html>
+    <head>
+    <title>Meet Undergraduate Planning at Price (UP)
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        @import url{"https://use.typekit.net/eng5xor.css"};
+        
+        #header1 {
+            background-color: #f7d20f;
+            text-align: center;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            margin: 0px;
+            /* Don't add heights in general */
+            /*height: 100px;*/
+            }
+        
+        html, body {
+                /* Shorthand for make ALL left, right, top, bottom margin 0*/
+                margin: 0 auto;
+                padding: 0 auto;
+                background-color: #f7d20f}
+        
+        a {text-decoration:none;color:black;}
+
+             
+        #header {
+            background-color: #f7d20f; text-align: center; padding-top: 40px; padding-bottom: 40px; margin-left: auto;
+            margin-right: auto; width: 1056px
+            /* Shorthand for margin top&bottom is 0, left and right are auto */
+            margin: 0 auto; 
+        }
+
+        #header img {width: 20%;}
+        h1 {
+            font-family: itc avante garde gothic, sans-serif;
+            font-weight: 700;
+            font-size:40px;
+            margin-top: 0 auto;
+            margin-bottom: 0 auto;
+            margin-left: 0 auto;
+            }
+
+        #about {
+            background-color: #f7d20f;
+            width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+            }
+        #about #column1 {
+            background-color:#f7d20f;
+            width: 50%;
+            float: left;
+            text-align: right;
+            padding-top: 20px;
+            }
+        #about #column2 {
+            background-color:#f7d20f;
+            width: 50%;
+            /* Don't add a fixed height because content can change */
+            /*height: 399px;*/
+            float: left;
+            /* There is an unforunate side effect to float.. It will cause whatever comes after the float to try to wrap around the floated element*/
+            }
+        .clearfloat {
+            clear: both;
+            }
+        .color-text {
+            color:turquoise;
+            }
+        #column2 p {
+            margin-top: 0;
+            margin-bottom: 0;
+            }
+        #menu {
+            background-color:#f7d20f;
+            /* Width of this parent matter because its children .column divs will try to fit within this width. */
+            width: 100%;
+            margin-left: auto;
+            margin-right: auto;
+            /* Shorthand for margin top&bottom is 0, left and right are auto */
+            font-family: 'itc avant garde gothic-pro', sans-serif;text-align:center;}
+        #menu .column {
+            background-color: #f7d20f;
+            width: 50%;
+            box-sizing: border-box;
+            float: left;
+            text-align: center;
+            margin-left:-.5%;
+            margin-right:-.5%;
+            margin-top:-.5%;
+            margin-bottom:-.5%;
+            padding: 27px;
+            border: 6px solid black;
+            /* shorthand for border */
+            position: relative;
+            }
+        #menu .column:hover {background-color: #b92126;}
+        #menu .column:hover h3 {color: #f7d20f;}
+        #menu .column:hover img{opacity: 0.7;}
+        #menu .column img {
+            /* Images don't care about the width of divs they are in so need to manually fix them */
+            /*width: 400px;*/
+            width: 100%;opacity: 1;}
+        
+        #menu .column .title {
+			background-color: #f7d20f;
+			border: 6px solid black;
+			margin: auto;
+			padding: 5px;
+            width: auto;
+			height: auto;
+            line-height: 35px;
+            font-size:15px;
+            font-weight:bolder;
+			position: absolute;
+            top:-6px;right:-6px;
+            visibility: hidden;
+			/*use position to place date on top of artist column*/   
+		}
+
+        #menu .column:hover .title{visibility: visible;}
+        
+
+@media(min-width:768px) {.container {align-items: flex-start;}}     
+        
+        @media (max-width: 991px) {
+        #menu .column {width: 100%;}
+}
+        @media (max-width: 767px)
+        {#menu .column {width: 100%;}
+
+}
+        @media (max-width: 575px) {
+    </style>
+</head>
+<body>
+    <div id="header">
+        <img src="uplogo.png"/>
+        </div>
+    </div>
+    <div id="menu">
+        <h1>What's UP</h1>
+        <div id="about">
+        <h2>Check out our events. Join us at our next one <a href="https://www.facebook.com/groups/848138635538663" target="_blank"><u>here!</u></a> 
+        </h2>
+		<div class="column">
+			<img src="bus.jpg"/>
+            <h3>USC Transportation Route Planning</h3>
+            <div class="title">
+                Consulting for the USC C Shuttle route off-campus.
+            </div>
+		</div>
+		<div class="column">
+			<img src="deschar.jpg"/>
+            <h3>USC Master Plan Design Charrette</h3>
+            <div class="title">
+                Re-imagining the next phase of the USC Village.
+            </div>
+		</div>
+		<div class="column">
+			<img src="buddyup.jpg"/>
+            <h3>BuddyUP</h3>
+            <div class="title">
+                The first-ever planning big little pairing!
+            </div>
+		</div>
+		<div class="column">
+			<img src="ciclavia.jpg"/>
+            <h3>CicLAvia</h3>
+            <div class="title">
+                Walking, biking, and rolling down DTLA.
+            </div>
+		</div>
+        <div class="column">
+			<img src="bell.jpg"/>
+            <h3>Pasadena Planning Tour</h3>
+            <div class="title">
+                Embedded planning powered by Jonathan Bell.
+            </div>
+		</div>
+		<div class="column">
+			<img src="aspd.jpg"/>
+            <h3>UP X ASPD Mixer</h3>
+            <div class="title">
+                Bringing planning undergrads and grads together.     
+            </div>
+        </div>
+        <div class="column">
+            <img src="transit.jpg"/>
+            <h3>LA Transit 101</h3>
+            <div class="title">
+                Learning all about LA public transit.
+        </div>       
+        </div>
+        <div class="column">
+            <img src="tour.jpg"/>
+            <h3>USC Historical Preservation Tour</h3>
+            <div class="title">
+                A themed USC campus tour with UP's Isaac Lemus.
+        </div>
+        </div>
+		<div class="clearfloat"></div>
+    </div>
+
+    <div id="header">
+        <h1> <a href="index.html">Back UP</a></h1>
+
+    </div>
+
+</body>
+</html>
